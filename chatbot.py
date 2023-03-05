@@ -66,3 +66,10 @@ chatbot = [
         ['That is nice to hear']
     ],
 ]
+
+#default message at the start of chat
+print("Hi, I'm AI BOT and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
+#Create Chat Bot
+chat = Chat(chatbot, reflections)
+#Start conversation
+chat.converse()
