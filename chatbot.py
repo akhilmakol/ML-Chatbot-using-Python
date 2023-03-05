@@ -1,5 +1,5 @@
-#Pairs is a list of patterns and responses.
-pairs = [
+#Chatbot is a list of patterns and responses.
+chatbot = [
     [
         r"(.*)my name is (.*)",
         ["Hello %2, How are you today ?",]
@@ -10,7 +10,7 @@ pairs = [
     ],
      [
         r"(.*) your name ?",
-        ["My name is thecleverprogrammer, but you can just call me robot and I'm a chatbot .",]
+        ["My name is AI BOT, but you can just call me robot and I'm a chatbot .",]
     ],
     [
         r"how are you (.*) ?",
@@ -35,11 +35,11 @@ pairs = [
     ],
     [
         r"(.*)created(.*)",
-        ["Aman Kharwal created me using Python's NLTK library ","top secret ;)",]
+        ["Akhil Makol created me using Python's NLTK library ","top secret ;)",]
     ],
     [
         r"(.*) (location|city) ?",
-        ['New Delhi, India',]
+        ['Haryana, India',]
     ],
     [
         r"(.*)raining in (.*)",
