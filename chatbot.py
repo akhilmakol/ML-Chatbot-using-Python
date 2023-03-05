@@ -1,8 +1,5 @@
 from nltk.chat.util import Chat, reflections
 
-#default message at the start of chat
-print("Hi, I'm AI BOT and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
-
 #Chatbot and my_reflections are list of patterns and responses.
 
 my_reflections= {
@@ -82,7 +79,8 @@ chatbot = [
     ],
 ]
 
-
+#default message at the start of chat
+print("Hi, I'm AI BOT and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
 #Create Chat Bot
 chat = Chat(chatbot, my_reflections)
 #Start conversation
